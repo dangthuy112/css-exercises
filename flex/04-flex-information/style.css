@@ -24,3 +24,34 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 100px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 52px;
+}
+
+.first-plant, .second-plant, .third-plant, .fourth-plant{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;
+}
+
+img {
+  margin-bottom: 10px;
+}
